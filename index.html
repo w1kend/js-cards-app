@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Cards app</title>
+    <meta charset="UTF-8" />
+    <!--
+      <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' />
+    -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto"
+      rel="stylesheet"
+    />
+	   <link rel="stylesheet" type="text/css" href="src/lib/mui/mui.min.css" />
+   <link rel="stylesheet" type="text/css" href="dist/style.css" /> 
+    </head>
+
+  <body>
+    <div id="app">
+      <div id="left"><div class="cards"></div>
+			<button class="mui-btn mui-btn--primary" id="leftCol">add</button>
+			</div>
+      <div id="center">
+				<div class="cards"></div>
+				<button class="mui-btn mui-btn--primary" id="centerCol">add</button></div>
+      <div id="right">
+				<div class="cards"></div>
+				<button class="mui-btn mui-btn--primary" id="rightCol">add</button></div>
+    </div>
+    <script src="src/lib/mui/mui.min.js"></script>
+    <script src="dist/main.min.js"></script>
+  </body>
+</html>
